@@ -9,7 +9,7 @@ Put the kmass dataset in the data folder. The expected folder structure is like 
 ### 1. Create conda environment and install requirements
 
  
-```
+```console
 conda create -n multimodal_retrieval -y python  && conda activate multimodal_retrieval
 pip install -r requirements.txt
 ```
@@ -25,6 +25,10 @@ python multimodal_retrieval.py
 PYTHONPATH=. python data_util/kmass_data_util.py
 ```
 
+
+ 
+ 
+## Credit: 
 
 This code is from [End-to-End Multimodal Fact-Checking and Explanation Generation: A Challenging Dataset and Models](https://github.com/VT-NLP/Mocheg) codebase. 
 
