@@ -3,7 +3,7 @@
 
 
 ## Dataset
-Put the kmass dataset in the data folder. The expected folder structure is like data/kmass/documents and data/kmass/queryio.
+Put the kmass dataset in the data folder. The expected folder structure is like data/kmass/documents, data/kmass/queryio/in and data/kmass/queryio/out.
 
 ## Run
 ### 1. Create conda environment and install requirements
