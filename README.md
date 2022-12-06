@@ -11,6 +11,8 @@ Put the kmass dataset in the data folder. The expected folder structure is like 
  
 ```console
 conda create -n multimodal_retrieval -y python  && conda activate multimodal_retrieval
+conda install pytorch==1.9.0 torchvision==0.10.0 torchaudio==0.9.0 cudatoolkit=11.3 -c pytorch -c conda-forge
+conda install pytorch torchvision torchaudio pytorch-cuda=11.6 -c pytorch -c nvidia
 pip install -r requirements.txt
 ```
 
